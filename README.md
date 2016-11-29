@@ -37,4 +37,4 @@ Follow the given steps:
     
 11) The above might seem bit confusing and difficult but u will get used to it after doing it couple of times and it will save u a lot of time in large projects.
 
-<b><i>If u have any doubt regarding the above or facing difficulty feel free to text me on whattspp or fb or call me.<i><b> 
+<b><i>If u have any doubt regarding the above or facing difficulty feel free to text Debakanta or Abhijeet on whattspp or fb.<i><b> 
