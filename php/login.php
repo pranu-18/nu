@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html >
 <head>
@@ -18,8 +17,7 @@
       
     <div class="tab-content">
         <div id="signup">   
-			<h1>Register</h1>
-          
+         
 			<form action="/" method="post">
           
 			<div class="top-row">
@@ -42,7 +40,7 @@
             <label>
               College<span class="req">*</span>
             </label>
-            <input type="email"required autocomplete="off"/>
+            <input type="text"required autocomplete="off"/>
 			</div>
 			
 			<div class="field-wrap">
@@ -61,15 +59,14 @@
 			
 			
           
-			<button type="submit" class="button button-block"/>Submit</button>
+			<button type="submit" class="button button-block"/>Register</button>
           
           </form>
 
         </div>
         
         <div id="login">   
-          <h1>Welcome Back!</h1>
-          
+         
           <form action="/" method="post">
           
             <div class="field-wrap">
