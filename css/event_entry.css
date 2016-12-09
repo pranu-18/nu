@@ -94,7 +94,7 @@ h1 {
   text-align: center;
   color: #ffffff;
   font-weight: 150;
-  margin: 0 0 10px;
+  margin: 0 0 20px 10px;
 }
 h2 {
   text-align: center;
@@ -120,10 +120,10 @@ label .req {
 }
 
 label.active {
-  -webkit-transform: translateY(-15px);
-          transform: translateY(-15px);
+  -webkit-transform: translateY(-17px);
+          transform: translateY(-17px);
   left: 2px;
-  font-size: 10px;
+  font-size: 14px;
 }
 label.active .req {
   opacity: 0;
@@ -168,14 +168,14 @@ textarea {
 
 .field-wrap {
   position: relative;
-  margin-bottom: 20px;
+  margin-bottom: 25px;
 }
 .field-wrap-text{
 	position: relative;
 	height : 40px;
 	font-size: 14px;
 	float : left ;
-	margin-bottom: 20px;
+	margin-bottom: 25px;
 	width : 48% ;
 	
 }
@@ -185,14 +185,14 @@ textarea {
 	height : 40px;
 	font-size: 14px;
 	float : right ;
-	margin-bottom: 20px;
+	margin-bottom: 25px;
 	width : 48% ;
 }
 	
 .field-wrap-event{
 	position : relative ;
-	margin-bottom : 20px ;
-	height : 180px ;
+	margin-bottom : 25px ;
+	height : 220px ;
 }
 .top-row:after {
   content: "";
