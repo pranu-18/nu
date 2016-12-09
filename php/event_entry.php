@@ -13,44 +13,59 @@
 <body>
 	<div class="form">
 	<div class="header">
-		<p>REGISTER YOUR EVENT</p>
+		<p>UPDATE YOUR EVENT</p>
     </div>
       
     <div class="tab-content">
         <div id="signup">   
-			     
+						
+			<h2>CLUB NAME HERE</h2> 
+			<h1>EVENT NAME HERE</h1>			
 			<form action="/" method="post">
-          
-			<div class="top-row">
-				<div class="field-wrap">
-				<label>
-					Club Name<span class="req">*</span>
-				</label>
-				<input type="text" required autocomplete="off" />
-				</div>
-        
-				<div class="field-wrap">
-				<label>
-					Member Name<span class="req">*</span>
-				</label>
-				<input type="text"required autocomplete="off"/>
-				</div>
-			</div>
-			
-			<div class="field-wrap">
-            <label>
-              Event Name<span class="req">*</span>
-            </label>
-            <input type="text"required autocomplete="off"/>
-			</div>
-			
 			<div class="field-wrap-event">
             <label>
               Event Details<span class="req">*</span>
             </label>
             <textarea name="textarea" ></textarea>
 			</div>
-          			
+			<div class="top-row" >
+				<div class="field-wrap">
+				<label>
+					Coordinator Name <span class="req">*</span>
+				</label>
+				<input type="text" required autocomplete="off" />
+				</div>
+        
+				<div class="field-wrap">
+				<label>
+					Contact<span class="req">*</span>
+				</label>
+				<input type="text"required autocomplete="off"/>
+				</div>
+			</div>	
+			<div class="top-row" >
+				<div class="field-wrap">
+				<label>
+					Coordinator Name <span class="req">*</span>
+				</label>
+				<input type="text" required autocomplete="off" />
+				</div>
+        
+				<div class="field-wrap">
+				<label>
+					Contact<span class="req">*</span>
+				</label>
+				<input type="text"required autocomplete="off"/>
+				</div>
+			</div>
+			<div class="pic-upload">	
+				<div class="field-wrap-text">
+				 <input type="text" value="Upload Poster" readonly><br>
+				</div>
+				<div class = "field-wrap-file">
+				<input type="file" name="poster" accept="image/*"/>
+				</div>
+			</div>
 			<div class="bottom-row">
 				<div class="field-wrap">
 				<label>
@@ -74,7 +89,7 @@
 				</div>
 			</div>
           
-			<button type="submit" class="button button-block"/>Submit</button>
+			<button type="submit" class="button button-block"/>Update</button>
           
           </form>
 
