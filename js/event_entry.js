@@ -27,3 +27,6 @@ $('.form').find('input, textarea').on('keyup blur focus', function (e) {
 
 });
 
+
+$('#textMeetingAgenda').css('overflow', 'hidden').autogrow() ;
+

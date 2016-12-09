@@ -18,15 +18,13 @@
       
     <div class="tab-content">
         <div id="signup">   
-						
-			<h2>CLUB NAME HERE</h2> 
 			<h1>EVENT NAME HERE</h1>			
 			<form action="/" method="post">
 			<div class="field-wrap-event">
             <label>
               Event Details<span class="req">*</span>
             </label>
-            <textarea name="textarea" ></textarea>
+            <textarea name="textarea" id="txtinput"></textarea>
 			</div>
 			<div class="top-row" >
 				<div class="field-wrap">
@@ -101,6 +99,7 @@
       
 </div> <!-- /form -->
 </div>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js" type="text/javascript"></script> 
   <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
   <script src="..\js\event_entry.js" type = "text/javascript"></script>
 
